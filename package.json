@@ -1,0 +1,34 @@
+{
+  "name": "personal-blog-site",
+  "version": "1.0.0",
+  "description": "A personal blog website",
+  "main": "index.html",
+  "dependencies": {},
+  "devDependencies": {
+    "prettier": "1.19.1",
+    "stylelint": "^12.0.0",
+    "stylelint-config-prettier": "^6.0.0",
+    "stylelint-config-recommended": "^3.0.0",
+    "stylelint-prettier": "^1.1.1"
+  },
+  "scripts": {
+    "format": "npx prettier  --write '**/*.{css,html,js,json,md.json,yaml,yml}'",
+    "format:check": "npx prettier  --check '**/*.{css,html,js,json,md.json,yaml,yml}'",
+    "lint": "npx stylelint '**/*.css' --fix",
+    "lint:check": "npx stylelint '**/*.css'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bolah2009/personal-blog-site.git"
+  },
+  "keywords": [
+    "HTML",
+    "CSS"
+  ],
+  "author": "Bola",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bolah2009/personal-blog-site/issues"
+  },
+  "homepage": "https://github.com/bolah2009/personal-blog-site#readme"
+}
