@@ -4,129 +4,204 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Personal Blog Website</title>
+    <link rel="stylesheet" href="./assests/css/index.css" />
   </head>
   <body>
     <nav class="nav">
-      <ul class="nav-list">
-        <li class="nav-list-item"><a class="nav-link" href="#">Home</a></li>
-        <li class="nav-list-item"><a class="nav-link" href="#">Blogs</a></li>
-        <li class="nav-list-item">
-          <a class="nav-link" href="#contact">Contact</a>
+      <ul class="d-flex jc-sa wrap">
+        <li><a href="#">Home</a></li>
+        <li><a href="./blogs/index.html">Blogs</a></li>
+        <li>
+          <a href="#contact">Contact</a>
         </li>
       </ul>
     </nav>
-    <main class="main">
-      <header class="header">
-        <h1 class="main-title">Welcome to my Personal Blog Website</h1>
-        <p class="main-sub-title">
+    <main class="main d-flex col">
+      <header class="header d-flex col">
+        <h1>Welcome to my Personal Blog Website</h1>
+        <div class="divider d-flex jc-sb">
+          <div class="divider-dot"></div>
+          <div class="divider-dot"></div>
+        </div>
+        <p>
           Find interesting and enlightening articles on web development
         </p>
       </header>
       <section class="main-section">
-        <h2>Top Articles</h2>
-        <article class="card">
-          <h3 class="card-title">Article Name</h3>
-          <img class="card-img" alt="article image" src="./images/one.jpg" />
-          <p class="card-desc">
-            Brief description of the article with no more that 70 characters ...
-          </p>
-          <a class="card-link" href="#">Learn more</a>
-        </article>
-        <article class="card">
-          <h3 class="card-title">Article Name</h3>
-          <img class="card-img" alt="article image" src="./images/one.jpg" />
-          <p class="card-desc">
-            Brief description of the article with no more that 70 characters ...
-          </p>
-          <a class="card-link" href="#">Learn more</a>
-        </article>
-        <article class="card">
-          <h3 class="card-title">Article Name</h3>
-          <img class="card-img" alt="article image" src="./images/one.jpg" />
-          <p class="card-desc">
-            Brief description of the article with no more that 70 characters ...
-          </p>
-          <a class="card-link" href="#">Learn more</a>
-        </article>
-        <article class="card">
-          <h3 class="card-title">Article Name</h3>
-          <img class="card-img" alt="article image" src="./images/one.jpg" />
-          <p class="card-desc">
-            Brief description of the article with no more that 70 characters ...
-          </p>
-          <a class="card-link" href="#">Learn more</a>
-        </article>
-        <article class="card">
-          <h3 class="card-title">Article Name</h3>
-          <img class="card-img" alt="article image" src="./images/one.jpg" />
-          <p class="card-desc">
-            Brief description of the article with no more that 70 characters ...
-          </p>
-          <a class="card-link" href="#">Learn more</a>
-        </article>
-        <article class="card">
-          <h3 class="card-title">Article Name</h3>
-          <img class="card-img" alt="article image" src="./images/one.jpg" />
-          <p class="card-desc">
-            Brief description of the article with no more that 70 characters ...
-          </p>
-          <a class="card-link" href="#">Learn more</a>
-        </article>
-        <article class="card">
-          <h3 class="card-title">Article Name</h3>
-          <img class="card-img" alt="article image" src="./images/one.jpg" />
-          <p class="card-desc">
-            Brief description of the article with no more that 70 characters ...
-          </p>
-          <a class="card-link" href="#">Learn more</a>
-        </article>
-        <article class="card">
-          <h3 class="card-title">Article Name</h3>
-          <img class="card-img" alt="article image" src="./images/one.jpg" />
-          <p class="card-desc">
-            Brief description of the article with no more that 70 characters ...
-          </p>
-          <a class="card-link" href="#">Learn more</a>
-        </article>
-        <article class="card">
-          <h3 class="card-title">Article Name</h3>
-          <img class="card-img" alt="article image" src="./images/one.jpg" />
-          <p class="card-desc">
-            Brief description of the article with no more that 70 characters ...
-          </p>
-          <a class="card-link" href="#">Learn more</a>
-        </article>
-        <article class="card">
-          <h3 class="card-title">Article Name</h3>
-          <img class="card-img" alt="article image" src="./images/one.jpg" />
-          <p class="card-desc">
-            Brief description of the article with no more that 70 characters ...
-          </p>
-          <a class="card-link" href="#">Learn more</a>
-        </article>
-        <article class="card">
-          <h3 class="card-title">Article Name</h3>
-          <img class="card-img" alt="article image" src="./images/one.jpg" />
-          <p class="card-desc">
-            Brief description of the article with no more that 70 characters ...
-          </p>
-          <a class="card-link" href="#">Learn more</a>
-        </article>
-        <article class="card">
-          <h3 class="card-title">Article Name</h3>
-          <img class="card-img" alt="article image" src="./images/one.jpg" />
-          <p class="card-desc">
-            Brief description of the article with no more that 70 characters ...
-          </p>
-          <a class="card-link" href="#">Learn more</a>
-        </article>
+        <h2 class="section-title">Top Articles</h2>
+        <div class="card-container  d-flex wrap">
+          <article class="card d-flex col jc-sa">
+            <h3 class="card-title">Article Name</h3>
+            <img class="card-img" alt="article image" src="./images/one.jpg" />
+            <p class="card-desc">
+              Brief description of the article with no more that 70 characters
+              ...
+            </p>
+            <a class="card-link" href="#">Learn more</a>
+          </article>
+          <article class="card d-flex col jc-sa">
+            <h3 class="card-title">Article Name</h3>
+            <img class="card-img" alt="article image" src="./images/one.jpg" />
+            <p class="card-desc">
+              Brief description of the article with no more that 70 characters
+              ...
+            </p>
+            <a class="card-link" href="#">Learn more</a>
+          </article>
+          <article class="card d-flex col jc-sa">
+            <h3 class="card-title">Article Name</h3>
+            <img class="card-img" alt="article image" src="./images/one.jpg" />
+            <p class="card-desc">
+              Brief description of the article with no more that 70 characters
+              ...
+            </p>
+            <a class="card-link" href="#">Learn more</a>
+          </article>
+          <article class="card d-flex col jc-sa">
+            <h3 class="card-title">Article Name</h3>
+            <img class="card-img" alt="article image" src="./images/one.jpg" />
+            <p class="card-desc">
+              Brief description of the article with no more that 70 characters
+              ...
+            </p>
+            <a class="card-link" href="#">Learn more</a>
+          </article>
+          <article class="card d-flex col jc-sa">
+            <h3 class="card-title">Article Name</h3>
+            <img class="card-img" alt="article image" src="./images/one.jpg" />
+            <p class="card-desc">
+              Brief description of the article with no more that 70 characters
+              ...
+            </p>
+            <a class="card-link" href="#">Learn more</a>
+          </article>
+          <article class="card d-flex col jc-sa">
+            <h3 class="card-title">Article Name</h3>
+            <img class="card-img" alt="article image" src="./images/one.jpg" />
+            <p class="card-desc">
+              Brief description of the article with no more that 70 characters
+              ...
+            </p>
+            <a class="card-link" href="#">Learn more</a>
+          </article>
+          <article class="card d-flex col jc-sa">
+            <h3 class="card-title">Article Name</h3>
+            <img class="card-img" alt="article image" src="./images/one.jpg" />
+            <p class="card-desc">
+              Brief description of the article with no more that 70 characters
+              ...
+            </p>
+            <a class="card-link" href="#">Learn more</a>
+          </article>
+          <article class="card d-flex col jc-sa">
+            <h3 class="card-title">Article Name</h3>
+            <img class="card-img" alt="article image" src="./images/one.jpg" />
+            <p class="card-desc">
+              Brief description of the article with no more that 70 characters
+              ...
+            </p>
+            <a class="card-link" href="#">Learn more</a>
+          </article>
+          <article class="card d-flex col jc-sa">
+            <h3 class="card-title">Article Name</h3>
+            <img class="card-img" alt="article image" src="./images/one.jpg" />
+            <p class="card-desc">
+              Brief description of the article with no more that 70 characters
+              ...
+            </p>
+            <a class="card-link" href="#">Learn more</a>
+          </article>
+          <article class="card d-flex col jc-sa">
+            <h3 class="card-title">Article Name</h3>
+            <img class="card-img" alt="article image" src="./images/one.jpg" />
+            <p class="card-desc">
+              Brief description of the article with no more that 70 characters
+              ...
+            </p>
+            <a class="card-link" href="#">Learn more</a>
+          </article>
+          <article class="card d-flex col jc-sa">
+            <h3 class="card-title">Article Name</h3>
+            <img class="card-img" alt="article image" src="./images/one.jpg" />
+            <p class="card-desc">
+              Brief description of the article with no more that 70 characters
+              ...
+            </p>
+            <a class="card-link" href="#">Learn more</a>
+          </article>
+          <article class="card d-flex col jc-sa">
+            <h3 class="card-title">Article Name</h3>
+            <img class="card-img" alt="article image" src="./images/one.jpg" />
+            <p class="card-desc">
+              Brief description of the article with no more that 70 characters
+              ...
+            </p>
+            <a class="card-link" href="#">Learn more</a>
+          </article>
+        </div>
       </section>
     </main>
     <footer class="footer">
-      <ul class="footer-list">
-        <li class="footer-list-item">Social media links</li>
-        <li id="contact" class="footer-list-item">Subscribe to newsletter</li>
-        <li class="footer-list-item">Edit on github</li>
+      <ul class="footer-list d-flex wrap jc-sa ai-c">
+        <li class="footer-list-item jc-c d-flex">
+          <ul class="social d-flex ai-c">
+            <li>
+              <a
+                href="#"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="icon-font facebook"
+              ></a>
+            </li>
+            <li>
+              <a
+                href="#"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="icon-font twitter"
+              ></a>
+            </li>
+            <li>
+              <a
+                href="#"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="icon-font instagram"
+              ></a>
+            </li>
+            <li>
+              <a
+                href="#"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="icon-font github"
+              ></a>
+            </li>
+            <li>
+              <a
+                href="https://www.linkedin.com/in/bolah2009/"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="icon-font linkedin"
+              ></a>
+            </li>
+          </ul>
+        </li>
+        <li id="contact" class="footer-list-item jc-c d-flex">
+          <form class="sub-form d-flex" action="#">
+            <input
+              placeholder="Enter your email"
+              type="text"
+              class="sub-text"
+            />
+            <input value="Subscribe" type="submit" class="sub-submit" />
+          </form>
+        </li>
+        <li class="footer-list-item jc-c d-flex">
+          <a href="https://github.com/bolah2009/udacity-personal-blog-site"
+            >Edit on GitHub</a
+          >
+        </li>
       </ul>
     </footer>
   </body>

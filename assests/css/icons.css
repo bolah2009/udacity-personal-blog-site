@@ -1,0 +1,81 @@
+@font-face {
+  font-family: "Genericons";
+  src: url("../font/Genericons.eot") format("embedded-opentype"),
+    url("../font/Genericons.woff") format("woff"),
+    url("../font/Genericons.ttf") format("truetype"),
+    url("../font/Genericons.svg#Genericons") format("svg");
+  font-style: normal;
+  font-weight: 400;
+  font-display: auto;
+}
+
+.icon-font {
+  font-size: 26px;
+  vertical-align: top;
+  text-align: center;
+  font-family: "Genericons";
+  cursor: pointer;
+  display: inline-block;
+  color: #999;
+  text-decoration: none;
+}
+
+.checkmark::before {
+  content: "\f418";
+}
+
+.facebook::before {
+  content: "\f203";
+}
+
+.facebook:hover {
+  color: #3b5998;
+}
+
+.twitter {
+  font-size: 25px;
+}
+
+.twitter::before {
+  content: "\f202";
+}
+
+.twitter:hover {
+  color: #1da1f2;
+}
+
+.instagram {
+  font-size: 23px;
+}
+
+.instagram::before {
+  content: "\f215";
+}
+
+.instagram:hover {
+  color: #405de6;
+}
+
+.github {
+  font-size: 20px;
+}
+
+.github::before {
+  content: "\f200";
+}
+
+.github:hover {
+  color: #555;
+}
+
+.linkedin {
+  font-size: 25px;
+}
+
+.linkedin::before {
+  content: "\f207";
+}
+
+.linkedin:hover {
+  color: #0077b5;
+}
