@@ -17,7 +17,7 @@ The main objective is to use HTML and CSS skills to build out a personal blog we
 - Clone the project
 
 ```bash
-git clone https://github.com/bolah2009/covid19-nigeria.git
+git clone https://github.com/bolah2009/udacity-personal-blog-site.git
 
 ```
 
