@@ -1,4 +1,4 @@
-name: Linter Check
+name: Linter Check and GitHub pages deploy
 
 on:
   push:
@@ -25,3 +25,22 @@ jobs:
       - name: Run Prettier
         run: |
           yarn format:check
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout 🛎️
+        uses: actions/checkout@v2
+        with:
+          persist-credentials: false
+          
+      - name: Deploy 🚀
+        uses: JamesIves/github-pages-deploy-action@releases/v3
+        with:
+          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+          BRANCH: gh-pages 
+          FOLDER: .
+          GIT_CONFIG_NAME: "Bola Ahmed Buari"
+          GIT_CONFIG_EMAIL: bola_ahmed2002@yahoo.com
+          COMMIT_MESSAGE: "🚀 Deploy to github pages"
