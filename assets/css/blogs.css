@@ -1,0 +1,27 @@
+.card-container {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.card {
+  justify-self: center;
+  width: 80%;
+}
+
+@media (min-width: 560px) {
+  .card-container {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (min-width: 768px) {
+  .card-container {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media (min-width: 1024px) {
+  .card-container {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}

@@ -13,6 +13,10 @@ h6 {
   font-size: 1.3em;
 }
 
+b {
+  font-weight: bold;
+}
+
 pre {
   margin: 8px -16px;
   background-color: #070249;
@@ -26,4 +30,45 @@ pre {
 
 .article-title {
   text-align: center;
+}
+
+.figure {
+  border: thin #c0c0c0 solid;
+  padding: 5px;
+  max-width: 300px;
+  margin: auto;
+}
+
+.img {
+  max-width: 300px;
+}
+
+.figcaption {
+  border-radius: 4px;
+  background-color: #f1f1f1;
+  font: italic smaller sans-serif;
+  padding: 4px;
+  text-align: center;
+}
+
+.card-container {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.card {
+  justify-self: center;
+  width: 80%;
+}
+
+@media (min-width: 560px) {
+  .card-container {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (min-width: 768px) {
+  .card-container {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
 }
